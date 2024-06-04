@@ -1,5 +1,6 @@
 import Form from "./components/Form";
 import Header from "./components/Header";
+import JoinContainer from "./components/JoinContainer";
 import ProffesionalContainer from "./components/ProffesionalContainer";
 import "./styles/App.scss";
 
@@ -8,6 +9,7 @@ function App() {
     <Header />
     <ProffesionalContainer />
     <Form />
+    <JoinContainer />
   </div>;
 }
 

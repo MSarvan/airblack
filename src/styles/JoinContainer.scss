@@ -1,0 +1,60 @@
+.join-container {
+  width: 100%;
+  padding: 0 8px;
+
+  .join-bg {
+    width: 100%;
+    background: url("../images/artists.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .join-content {
+      width: 100%;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .join-heading {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+        .arrow-image {
+          display: flex;
+        }
+
+        .join-heading-text {
+          color: #f5f5f5;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 1.4;
+          text-align: center;
+        }
+      }
+
+      .join-image {
+        width: 100%;
+        display: flex;
+        img {
+          width: 100%;
+        }
+      }
+
+      .apply-now-btn {
+        margin-top: 0.5rem;
+        width: 100%;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        height: 36px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        background: linear-gradient(to right, #f56563, #e54988);
+      }
+    }
+  }
+}
