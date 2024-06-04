@@ -25,7 +25,7 @@ const ProffesionalContainer = () => {
       <div className="proffesional-text">
         Proffesional Online <br /> Makeup Course
       </div>
-      <div className="certificate-container">
+      <div className="certificat-section">
         <div className="certificate-img">
           <img src={certificate} alt="" />
         </div>
